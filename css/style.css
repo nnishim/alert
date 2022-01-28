@@ -1,0 +1,99 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Calibri", sans-serif;
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.overlay-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  max-width: 100vw;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 1001;
+  width: 400px;
+  height: 200px;
+}
+
+.content {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.desc {
+  padding: 15px 0;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.okay {
+  display: flex;
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
