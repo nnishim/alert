@@ -1,0 +1,23 @@
+{
+  "name": "alert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnishim/alert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnishim/alert/issues"
+  },
+  "homepage": "https://github.com/nnishim/alert#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.7.2"
+  }
+}
