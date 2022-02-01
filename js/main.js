@@ -18,6 +18,8 @@ function activate(){
   overlayContainer.style.display = `flex`;
   overlay.style.display = `block`;
   document.body.classList.add('no-scroll');
+  overlayContainer.style.background = `rgba(0,0,0,0.7)`;
+  overlay.style.background = `#fff`;
 }
 function deactivate(event){
   if(event.target !== overlayContainer){
